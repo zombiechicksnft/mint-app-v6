@@ -102,21 +102,21 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "",
-    SCAN_LINK: "",
+    CONTRACT_ADDRESS: "0xe19091aa4044f3763a46158c7f1bcf7ebf04e39c",
+    SCAN_LINK: "https://etherscan.io/token/0xe19091aa4044f3763a46158c7f1bcf7ebf04e39c",
     NETWORK: {
-      NAME: "",
-      SYMBOL: "",
-      ID: 0,
+      NAME: "Ethereum",
+      SYMBOL: "ETH",
+      ID: 1,
     },
-    NFT_NAME: "",
-    SYMBOL: "",
-    MAX_SUPPLY: 1,
-    WEI_COST: 0,
-    DISPLAY_COST: 0,
-    GAS_LIMIT: 0,
-    MARKETPLACE: "",
-    MARKETPLACE_LINK: "",
+    NFT_NAME: "Zombie Chicks",
+    SYMBOL: "ZCHICKS",
+    MAX_SUPPLY: 1000,
+    WEI_COST: 30000000000000000,
+    DISPLAY_COST: 0.03,
+    GAS_LIMIT: 285000,
+    MARKETPLACE: "Opensea",
+    MARKETPLACE_LINK: "https://opensea.io/collection/zombie-chicks",
     SHOW_BACKGROUND: false,
   });
 
