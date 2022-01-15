@@ -112,8 +112,8 @@ function App() {
     NFT_NAME: "Zombie Chicks",
     SYMBOL: "ZCHICKS",
     MAX_SUPPLY: 1000,
-    WEI_COST: 30000000000000000,
-    DISPLAY_COST: 0.03,
+    WEI_COST: 0,
+    DISPLAY_COST: 0,
     GAS_LIMIT: 285000,
     MARKETPLACE: "Opensea",
     MARKETPLACE_LINK: "https://opensea.io/collection/zombie-chicks",
@@ -263,8 +263,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL} per mint.
+                 FREE{" ")MINT
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
