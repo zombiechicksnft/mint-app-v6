@@ -263,7 +263,8 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                 FREE{" ")MINT
+               {CONFIG.SYMBOL} {CONFIG.DISPLAY_COST}{" "}
+                  {CONFIG.NETWORK.SYMBOL} per mint
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
